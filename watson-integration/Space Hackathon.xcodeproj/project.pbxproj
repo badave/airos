@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDE522B91ADAE24A00FC75F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE522B81ADAE24A00FC75F5 /* AppDelegate.m */; };
+		CDE522BB1ADAE24A00FC75F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE522BA1ADAE24A00FC75F5 /* main.m */; };
+		CDE522BD1ADAE24A00FC75F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE522BC1ADAE24A00FC75F5 /* Images.xcassets */; };
+		CDE522C01ADAE24A00FC75F5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDE522BE1ADAE24A00FC75F5 /* MainMenu.xib */; };
+		CDE522CC1ADAE24A00FC75F5 /* Space_HackathonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE522CB1ADAE24A00FC75F5 /* Space_HackathonTests.m */; };
+		CDE522D61ADAE30600FC75F5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDE522D51ADAE30600FC75F5 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDE522C61ADAE24A00FC75F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDE522AA1ADAE24A00FC75F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDE522B11ADAE24A00FC75F5;
+			remoteInfo = "Space Hackathon";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDE522B21ADAE24A00FC75F5 /* Space Hackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Hackathon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE522B61ADAE24A00FC75F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDE522B71ADAE24A00FC75F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CDE522B81ADAE24A00FC75F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CDE522BA1ADAE24A00FC75F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDE522BC1ADAE24A00FC75F5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CDE522BF1ADAE24A00FC75F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CDE522C51ADAE24A00FC75F5 /* Space HackathonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Space HackathonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE522CA1ADAE24A00FC75F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDE522CB1ADAE24A00FC75F5 /* Space_HackathonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Space_HackathonTests.m; sourceTree = "<group>"; };
+		CDE522D51ADAE30600FC75F5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDE522AF1ADAE24A00FC75F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE522D61ADAE30600FC75F5 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE522C21ADAE24A00FC75F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDE522A91ADAE24A00FC75F5 = {
+			isa = PBXGroup;
+			children = (
+				CDE522D71ADAE31100FC75F5 /* Frameworks */,
+				CDE522B41ADAE24A00FC75F5 /* Space Hackathon */,
+				CDE522C81ADAE24A00FC75F5 /* Space HackathonTests */,
+				CDE522B31ADAE24A00FC75F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDE522B31ADAE24A00FC75F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDE522B21ADAE24A00FC75F5 /* Space Hackathon.app */,
+				CDE522C51ADAE24A00FC75F5 /* Space HackathonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDE522B41ADAE24A00FC75F5 /* Space Hackathon */ = {
+			isa = PBXGroup;
+			children = (
+				CDE522B71ADAE24A00FC75F5 /* AppDelegate.h */,
+				CDE522B81ADAE24A00FC75F5 /* AppDelegate.m */,
+				CDE522BC1ADAE24A00FC75F5 /* Images.xcassets */,
+				CDE522BE1ADAE24A00FC75F5 /* MainMenu.xib */,
+				CDE522B51ADAE24A00FC75F5 /* Supporting Files */,
+			);
+			path = "Space Hackathon";
+			sourceTree = "<group>";
+		};
+		CDE522B51ADAE24A00FC75F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDE522B61ADAE24A00FC75F5 /* Info.plist */,
+				CDE522BA1ADAE24A00FC75F5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDE522C81ADAE24A00FC75F5 /* Space HackathonTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDE522CB1ADAE24A00FC75F5 /* Space_HackathonTests.m */,
+				CDE522C91ADAE24A00FC75F5 /* Supporting Files */,
+			);
+			path = "Space HackathonTests";
+			sourceTree = "<group>";
+		};
+		CDE522C91ADAE24A00FC75F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDE522CA1ADAE24A00FC75F5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDE522D71ADAE31100FC75F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDE522D51ADAE30600FC75F5 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDE522B11ADAE24A00FC75F5 /* Space Hackathon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDE522CF1ADAE24A00FC75F5 /* Build configuration list for PBXNativeTarget "Space Hackathon" */;
+			buildPhases = (
+				CDE522AE1ADAE24A00FC75F5 /* Sources */,
+				CDE522AF1ADAE24A00FC75F5 /* Frameworks */,
+				CDE522B01ADAE24A00FC75F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Space Hackathon";
+			productName = "Space Hackathon";
+			productReference = CDE522B21ADAE24A00FC75F5 /* Space Hackathon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDE522C41ADAE24A00FC75F5 /* Space HackathonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDE522D21ADAE24A00FC75F5 /* Build configuration list for PBXNativeTarget "Space HackathonTests" */;
+			buildPhases = (
+				CDE522C11ADAE24A00FC75F5 /* Sources */,
+				CDE522C21ADAE24A00FC75F5 /* Frameworks */,
+				CDE522C31ADAE24A00FC75F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDE522C71ADAE24A00FC75F5 /* PBXTargetDependency */,
+			);
+			name = "Space HackathonTests";
+			productName = "Space HackathonTests";
+			productReference = CDE522C51ADAE24A00FC75F5 /* Space HackathonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDE522AA1ADAE24A00FC75F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Patrick Chamelo";
+				TargetAttributes = {
+					CDE522B11ADAE24A00FC75F5 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					CDE522C41ADAE24A00FC75F5 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = CDE522B11ADAE24A00FC75F5;
+					};
+				};
+			};
+			buildConfigurationList = CDE522AD1ADAE24A00FC75F5 /* Build configuration list for PBXProject "Space Hackathon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDE522A91ADAE24A00FC75F5;
+			productRefGroup = CDE522B31ADAE24A00FC75F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDE522B11ADAE24A00FC75F5 /* Space Hackathon */,
+				CDE522C41ADAE24A00FC75F5 /* Space HackathonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDE522B01ADAE24A00FC75F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE522BD1ADAE24A00FC75F5 /* Images.xcassets in Resources */,
+				CDE522C01ADAE24A00FC75F5 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE522C31ADAE24A00FC75F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDE522AE1ADAE24A00FC75F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE522BB1ADAE24A00FC75F5 /* main.m in Sources */,
+				CDE522B91ADAE24A00FC75F5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE522C11ADAE24A00FC75F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE522CC1ADAE24A00FC75F5 /* Space_HackathonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDE522C71ADAE24A00FC75F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDE522B11ADAE24A00FC75F5 /* Space Hackathon */;
+			targetProxy = CDE522C61ADAE24A00FC75F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDE522BE1ADAE24A00FC75F5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDE522BF1ADAE24A00FC75F5 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDE522CD1ADAE24A00FC75F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CDE522CE1ADAE24A00FC75F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CDE522D01ADAE24A00FC75F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Space Hackathon/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CDE522D11ADAE24A00FC75F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Space Hackathon/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CDE522D31ADAE24A00FC75F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Space HackathonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Space Hackathon.app/Contents/MacOS/Space Hackathon";
+			};
+			name = Debug;
+		};
+		CDE522D41ADAE24A00FC75F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Space HackathonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Space Hackathon.app/Contents/MacOS/Space Hackathon";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDE522AD1ADAE24A00FC75F5 /* Build configuration list for PBXProject "Space Hackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE522CD1ADAE24A00FC75F5 /* Debug */,
+				CDE522CE1ADAE24A00FC75F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDE522CF1ADAE24A00FC75F5 /* Build configuration list for PBXNativeTarget "Space Hackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE522D01ADAE24A00FC75F5 /* Debug */,
+				CDE522D11ADAE24A00FC75F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CDE522D21ADAE24A00FC75F5 /* Build configuration list for PBXNativeTarget "Space HackathonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE522D31ADAE24A00FC75F5 /* Debug */,
+				CDE522D41ADAE24A00FC75F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDE522AA1ADAE24A00FC75F5 /* Project object */;
+}
